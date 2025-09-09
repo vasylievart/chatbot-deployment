@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Bon dia",
+        "Com estàs?",
+        "Què tal?",
+        "Com va?",
+        "Bona tarda"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gràcies per la visita.",
+        "Com et puc ajudar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Adéu", "Ens veiem", "Fins aviat"],
+      "responses": [
+        "Fins aviat, gràcies per la visita.",
+        "Que tinguis un bon dia!",
+        "Adéu, que vagi bé."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Gràcies", "Molt bé", "Perfecte"],
+      "responses": [
+        "Estic agraït d'ajudar-te.",
+        "Molt de gust.",
+        "Un plaer."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Què vens?",
+        "Quin producte es ven?",
+        "Quins productes tens?"
+      ],
+      "responses": [
+        "Venem taquilles per carregar la bateria de mòbils o altres dispositius.",
+        "Taquilla segura per a càrrega de bateria de mòbil."
+      ]
+    },
+    {
+      "tag": "coins",
+      "patterns": [
+        "Quin valor té la moneda?",
+        "Quin valor de moneda s'utilitza?",
+        "S'adapta a les monedes de diferents països?"
+      ],
+      "responses": [
+        "Si ets a la zona euro, el valor serà d'1 euro; si no, la millor solució serà utilitzar una fitxa. Ajusta la fitxa perquè indiqui el valor que desitgis."
+      ]
+    },
+    {
+      "tag": "token",
+      "patterns": [
+        "Què és la fitxa?",
+        "Com funciona la fitxa?"
+      ],
+      "responses": [
+        "La fitxa és com una moneda feta de plàstic especial, que es pot utilitzar com a tal. Als països que no utilitzen l'euro, serà una bona solució. Pots assignar qualsevol valor a la fitxa, i també serà útil si no vols utilitzar efectiu."
+      ]
+    },
+    {
+      "tag": "consumption",
+      "patterns": [
+        "Quant és el consum d'electricitat?",
+        "Consum d'energia"
+      ],
+      "responses": [
+        "Sense cap dispositiu connectat, el consum és de 0. Després, el consum depèn de la quantitat de dispositius connectats."
+      ]
+    },
+    {
+      "tag": "fabrication",
+      "patterns": [
+        "Quant de temps triga la fabricació de la màquina?",
+        "Quant de temps triga la producció?"
+      ],
+      "responses": [
+        "Depèn de l'especificació de la comanda i de la disponibilitat al magatzem."
+      ]
+    },
+    {
+      "tag": "delivery_general",
+      "patterns": [
+        "A quins països podeu lliurar?",
+        "Quins són els països de lliurament?"
+      ],
+      "responses": [
+        "A qualsevol país, sempre que la situació política i de seguretat ho permeti."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "Quant de temps triga el lliurament?",
+        "Terminis de lliurament"
+      ],
+      "responses": [
+        "Depèn del país, la situació política i el despatx de duanes."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Quina és la forma de pagament?",
+        "Puc pagar amb PayPal?",
+        "Puc fer una transferència bancària?"
+      ],
+      "responses": [
+        "El pagament es pot realitzar mitjançant transferència bancària o PayPal. Una vegada confirmada la comanda de la taquilla, rebràs la factura amb les dades de pagament. La taquilla serà enviada després que el banc confirmi el pagament."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quant triga el lliurament?",
+        "Quant dura el lliurament?",
+        "Quan puc rebre la meva comanda?"
+      ],
+      "responses": [
+        "El lliurament dura entre 2 i 4 dies.",
+        "Arribarà en 2-4 dies."
+      ]
+    },
+    {
+      "tag": "charging",
+      "patterns": [
+        "Admet càrrega ràpida?",
+        "Quant de temps triga la càrrega?"
+      ],
+      "responses": [
+        "Utilitzem cables per a càrrega ràpida, garantint la millor experiència per als teus clients."
+      ]
+    },
+    {
+      "tag": "contactless",
+      "patterns": [
+        "És possible la càrrega sense contacte?",
+        "Hi ha carregador sense fil?"
+      ],
+      "responses": [
+        "Sí, és possible integrar un carregador sense fil a la taquilla, però influeix en el consum elèctric i en el preu de la màquina. Per a més detalls, contacta'ns per WhatsApp o correu electrònic."
+      ]
+    },
+    {
+      "tag": "capacity",
+      "patterns": [
+        "És possible carregar dos dispositius en una casella?",
+        "Es poden carregar diversos dispositius en una casella?",
+        "Quants dispositius puc carregar alhora?"
+      ],
+      "responses": [
+        "Cada casella està equipada amb cables de diversos tipus. Sí, és possible utilitzar una casella per carregar dos dispositius que utilitzin diferents cables, però influirà en la velocitat de càrrega."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "Quina garantia hi ha?",
+        "Hi ha garantia?",
+        "Teniu garantia?",
+        "Quin és el període de garantia?"
+      ],
+      "responses": [
+        "La garantia de la taquilla és d'un any. També s'inclouen cables de recanvi per a cada taquilla, juntament amb un vídeo instructiu sobre com canviar-los."
+      ]
+    }
+  ]
+}

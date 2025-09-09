@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "¿Cómo estás?",
+        "¿Qué tal?",
+        "¿Cómo va?",
+        "Buenas tardes"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gracias por la visita.",
+        "¿Cómo te puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Adiós", "Nos vemos", "Hasta luego"],
+      "responses": [
+        "Hasta luego, gracias por la visita.",
+        "¡Que tengas un buen día!",
+        "Adiós, que vaya bien."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Gracias", "Muy bien", "Perfecto"],
+      "responses": [
+        "Estoy agradecido de ayudarte.",
+        "Mucho gusto.",
+        "Un placer."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "¿Qué vendes?",
+        "¿Qué producto se vende?",
+        "¿Qué productos tienes?"
+      ],
+      "responses": [
+        "Vendemos casilleros para cargar la batería de móviles u otros dispositivos.",
+        "Casillero seguro para carga de batería de móvil."
+      ]
+    },
+    {
+      "tag": "coins",
+      "patterns": [
+        "¿De qué valor es la moneda?",
+        "¿Qué valor de moneda se usa?",
+        "¿Se adapta a las monedas de distintos países?"
+      ],
+      "responses": [
+        "Si estás en la zona euro, el valor será de 1 euro; si no, la mejor solución será usar una ficha. Ajusta la ficha para que indique el valor que desees."
+      ]
+    },
+    {
+      "tag": "token",
+      "patterns": [
+        "¿Qué es la ficha?",
+        "¿Cómo funciona la ficha?"
+      ],
+      "responses": [
+        "La ficha es como una moneda hecha de plástico especial, que se puede usar como tal. En los países que no usan el euro, será una buena solución. Puedes asignar cualquier valor a la ficha, y también será útil si no quieres usar efectivo."
+      ]
+    },
+    {
+      "tag": "consumption",
+      "patterns": [
+        "¿Cuánto es el consumo de electricidad?",
+        "Consumo de energía"
+      ],
+      "responses": [
+        "Sin ningún dispositivo conectado, el consumo es de 0. Después, el consumo depende de la cantidad de dispositivos conectados."
+      ]
+    },
+    {
+      "tag": "fabrication",
+      "patterns": [
+        "¿Cuánto tiempo tarda la fabricación de la máquina?",
+        "¿Cuánto tiempo tarda la producción?"
+      ],
+      "responses": [
+        "Depende de la especificación del pedido y de la disponibilidad en el almacén."
+      ]
+    },
+    {
+      "tag": "delivery_general",
+      "patterns": [
+        "¿A qué países pueden entregar?",
+        "¿Cuáles son los países de entrega?"
+      ],
+      "responses": [
+        "A cualquier país, siempre que la situación política y de seguridad lo permita."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "¿Cuánto tiempo tarda la entrega?",
+        "Plazos de entrega"
+      ],
+      "responses": [
+        "Depende del país, la situación política y el despacho de aduana."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "¿Cuál es la forma de pago?",
+        "¿Puedo pagar con PayPal?",
+        "¿Puedo hacer una transferencia bancaria?"
+      ],
+      "responses": [
+        "El pago se puede realizar mediante transferencia bancaria o PayPal. Una vez confirmado el pedido del casillero, recibirás la factura con los datos de pago. El casillero será enviado después de que el banco confirme el pago."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "¿Cuánto tarda la entrega?",
+        "¿Cuánto dura la entrega?",
+        "¿Cuándo puedo recibir mi pedido?"
+      ],
+      "responses": [
+        "La entrega dura entre 2 y 4 días.",
+        "Llegará en 2-4 días."
+      ]
+    },
+    {
+      "tag": "charging",
+      "patterns": [
+        "¿Admite carga rápida?",
+        "¿Cuánto tiempo tarda la carga?"
+      ],
+      "responses": [
+        "Usamos cables para carga rápida, garantizando la mejor experiencia para tus clientes."
+      ]
+    },
+    {
+      "tag": "contactless",
+      "patterns": [
+        "¿Es posible la carga sin contacto?",
+        "¿Hay cargador inalámbrico?"
+      ],
+      "responses": [
+        "Sí, es posible integrar un cargador inalámbrico en el casillero, pero influye en el consumo eléctrico y en el precio de la máquina. Para más detalles, contáctanos por WhatsApp o correo electrónico."
+      ]
+    },
+    {
+      "tag": "capacity",
+      "patterns": [
+        "¿Es posible cargar dos dispositivos en una casilla?",
+        "¿Se pueden cargar varios dispositivos en una casilla?",
+        "¿Cuántos dispositivos puedo cargar a la vez?"
+      ],
+      "responses": [
+        "Cada casilla está equipada con cables de varios tipos. Sí, es posible usar una casilla para cargar dos dispositivos que usen distintos cables, pero influirá en la velocidad de carga."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "¿Qué garantía hay?",
+        "¿Hay garantía?",
+        "¿Tienen garantía?",
+        "¿Cuál es el período de garantía?"
+      ],
+      "responses": [
+        "La garantía del casillero es de un año. También se incluyen cables de repuesto para cada casillero y un video instructivo sobre cómo cambiarlos."
+      ]
+    }
+  ]
+}

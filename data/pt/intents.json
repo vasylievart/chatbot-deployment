@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Olá",
+        "Bom dia",
+        "Como estás?",
+        "Que tal?",
+        "Como vai?",
+        "Boa tarde"
+      ],
+      "responses": [
+        "Olá :-)",
+        "Olá, obrigado pela visita.",
+        "Como posso ajudar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Adeus", "Até já", "Até logo"],
+      "responses": [
+        "Até logo, obrigado pela visita.",
+        "Que tenhas um bom dia!",
+        "Adeus, que corra bem."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Obrigado", "Muito bem", "Perfeito"],
+      "responses": [
+        "Estou grato por ajudar.",
+        "Muito gosto.",
+        "Um prazer."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "O que vendes?",
+        "Que produto é vendido?",
+        "Que produtos tens?"
+      ],
+      "responses": [
+        "Vendemos cacifos para carregar a bateria de telemóveis ou outros dispositivos.",
+        "Cacifo seguro para carregamento de bateria de telemóvel."
+      ]
+    },
+    {
+      "tag": "coins",
+      "patterns": [
+        "Qual é o valor da moeda?",
+        "Que valor de moeda é usado?",
+        "Adapta-se às moedas de diferentes países?"
+      ],
+      "responses": [
+        "Se estiveres na zona euro, o valor será de 1 euro; se não, a melhor solução será usar uma ficha. Ajusta a ficha para que indique o valor que desejares."
+      ]
+    },
+    {
+      "tag": "token",
+      "patterns": [
+        "O que é a ficha?",
+        "Como funciona a ficha?"
+      ],
+      "responses": [
+        "A ficha é como uma moeda feita de plástico especial, que pode ser usada como tal. Em países que não usam o euro, será uma boa solução. Podes atribuir qualquer valor à ficha, e também será útil se não quiseres usar dinheiro."
+      ]
+    },
+    {
+      "tag": "consumption",
+      "patterns": [
+        "Quanto é o consumo de eletricidade?",
+        "Consumo de energia"
+      ],
+      "responses": [
+        "Sem nenhum dispositivo conectado, o consumo é de 0. Depois, o consumo depende da quantidade de dispositivos conectados."
+      ]
+    },
+    {
+      "tag": "fabrication",
+      "patterns": [
+        "Quanto tempo demora o fabrico da máquina?",
+        "Quanto tempo demora a produção?"
+      ],
+      "responses": [
+        "Depende da especificação do pedido e da disponibilidade em stock."
+      ]
+    },
+    {
+      "tag": "delivery_general",
+      "patterns": [
+        "Para que países podem entregar?",
+        "Quais são os países de entrega?"
+      ],
+      "responses": [
+        "Para qualquer país, desde que a situação política e de segurança o permita."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "Quanto tempo demora a entrega?",
+        "Prazos de entrega"
+      ],
+      "responses": [
+        "Depende do país, da situação política e do desalfandegamento."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Qual é a forma de pagamento?",
+        "Posso pagar com PayPal?",
+        "Posso fazer uma transferência bancária?"
+      ],
+      "responses": [
+        "O pagamento pode ser feito por transferência bancária ou PayPal. Assim que o pedido do cacifo for confirmado, receberás a fatura com os dados de pagamento. O cacifo será enviado depois que o banco confirmar o pagamento."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quanto tempo demora a entrega?",
+        "Quanto dura a entrega?",
+        "Quando posso receber a minha encomenda?"
+      ],
+      "responses": [
+        "A entrega demora entre 2 e 4 dias.",
+        "Chegará em 2-4 dias."
+      ]
+    },
+    {
+      "tag": "charging",
+      "patterns": [
+        "Suporta carregamento rápido?",
+        "Quanto tempo demora o carregamento?"
+      ],
+      "responses": [
+        "Usamos cabos para carregamento rápido, garantindo a melhor experiência para os teus clientes."
+      ]
+    },
+    {
+      "tag": "contactless",
+      "patterns": [
+        "É possível o carregamento sem contacto?",
+        "Há carregador sem fios?"
+      ],
+      "responses": [
+        "Sim, é possível integrar um carregador sem fios no cacifo, mas isso influencia o consumo elétrico e o preço da máquina. Para mais detalhes, contacta-nos via WhatsApp ou email."
+      ]
+    },
+    {
+      "tag": "capacity",
+      "patterns": [
+        "É possível carregar dois dispositivos numa gaveta?",
+        "É possível carregar vários dispositivos numa gaveta?",
+        "Quantos dispositivos posso carregar de uma vez?"
+      ],
+      "responses": [
+        "Cada gaveta está equipada com cabos de vários tipos. Sim, é possível usar uma gaveta para carregar dois dispositivos que usem cabos diferentes, mas isso influenciará a velocidade de carregamento."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "Que garantia há?",
+        "Há garantia?",
+        "Têm garantia?",
+        "Qual é o período de garantia?"
+      ],
+      "responses": [
+        "A garantia do cacifo é de um ano. Também se incluem cabos de substituição para cada cacifo, juntamente com um vídeo instrutivo sobre como os mudar."
+      ]
+    }
+  ]
+}

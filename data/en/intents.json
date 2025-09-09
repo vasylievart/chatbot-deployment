@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Good morning",
+        "How are you?",
+        "What's up?",
+        "How's it going?",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello :-)",
+        "Hello, thanks for visiting.",
+        "How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you", "See you later"],
+      "responses": [
+        "See you later, thanks for visiting.",
+        "Have a good day!",
+        "Goodbye, take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Very good", "Perfect"],
+      "responses": [
+        "I'm happy to help you.",
+        "My pleasure.",
+        "It's a pleasure."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you sell?",
+        "What product is sold?",
+        "What products do you have?"
+      ],
+      "responses": [
+        "We sell lockers for charging mobile phone batteries or other devices.",
+        "Secure mobile phone battery charging locker."
+      ]
+    },
+    {
+      "tag": "coins",
+      "patterns": [
+        "What is the coin's value?",
+        "What coin value is used?",
+        "Does it adapt to coins from different countries?"
+      ],
+      "responses": [
+        "If you are in the Eurozone, the value will be 1 euro; if not, the best solution will be to use a token. Adjust the token to indicate the value you desire."
+      ]
+    },
+    {
+      "tag": "token",
+      "patterns": [
+        "What is the token?",
+        "How does the token work?"
+      ],
+      "responses": [
+        "The token is like a coin made of special plastic, which can be used as such. In countries that don't use the euro, it will be a good solution. You can assign any value to the token, and it will also be useful if you don't want to use cash."
+      ]
+    },
+    {
+      "tag": "consumption",
+      "patterns": [
+        "How much is the electricity consumption?",
+        "Energy consumption"
+      ],
+      "responses": [
+        "Without any device connected, consumption is 0. Afterwards, consumption depends on the number of connected devices."
+      ]
+    },
+    {
+      "tag": "fabrication",
+      "patterns": [
+        "How long does it take to manufacture the machine?",
+        "How long does production take?"
+      ],
+      "responses": [
+        "It depends on the order's specialization and stock availability."
+      ]
+    },
+    {
+      "tag": "delivery_general",
+      "patterns": [
+        "To which countries can you deliver?",
+        "What are the delivery countries?"
+      ],
+      "responses": [
+        "Any country, as long as the political and security situation allows it."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "How long does delivery take?",
+        "Delivery terms"
+      ],
+      "responses": [
+        "It depends on the country, the political situation, and customs clearance."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What is the payment method?",
+        "Can I pay with PayPal?",
+        "Can I make a bank transfer?"
+      ],
+      "responses": [
+        "Payment can be made via bank transfer or PayPal. Once the locker order is confirmed, you will receive the invoice with payment details. The locker will be sent after the bank confirms the payment."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does delivery last?",
+        "When can I receive my order?"
+      ],
+      "responses": [
+        "Delivery takes between 2 and 4 days.",
+        "It will arrive in 2-4 days."
+      ]
+    },
+    {
+      "tag": "charging",
+      "patterns": [
+        "Does it support fast charging?",
+        "How long does charging take?"
+      ],
+      "responses": [
+        "We use cables for fast charging, ensuring the best experience for your customers."
+      ]
+    },
+    {
+      "tag": "contactless",
+      "patterns": [
+        "Is contactless charging possible?",
+        "Is there a wireless charger?"
+      ],
+      "responses": [
+        "Yes, it's possible to integrate a wireless charger into the locker, but it affects electricity consumption and the machine's price. For more details, contact us via WhatsApp or email."
+      ]
+    },
+    {
+      "tag": "capacity",
+      "patterns": [
+        "Is it possible to charge two devices in one compartment?",
+        "Can several devices be charged in one compartment?",
+        "How many devices can I charge at once?"
+      ],
+      "responses": [
+        "Each compartment is equipped with various types of cables. Yes, it's possible to use one compartment to charge two devices that use different cables, but it will affect charging speed."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "What warranty is there?",
+        "Is there a warranty?",
+        "Do you have a warranty?",
+        "What is the warranty period?"
+      ],
+      "responses": [
+        "The locker warranty is one year. Spare cables are also included for each locker, along with an instructional video on how to change them."
+      ]
+    }
+  ]
+}

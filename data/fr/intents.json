@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Comment ça va ?",
+        "Ça va ?",
+        "Comment allez-vous ?",
+        "Bon après-midi"
+      ],
+      "responses": [
+        "Bonjour :-)",
+        "Bonjour, merci de votre visite.",
+        "Comment puis-je vous aider ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Au revoir", "À bientôt", "À plus tard"],
+      "responses": [
+        "À plus tard, merci de votre visite.",
+        "Passez une bonne journée !",
+        "Au revoir, portez-vous bien."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Très bien", "Parfait"],
+      "responses": [
+        "Je suis ravi de vous aider.",
+        "Avec plaisir.",
+        "Un plaisir."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Que vendez-vous ?",
+        "Quel produit est vendu ?",
+        "Quels produits avez-vous ?"
+      ],
+      "responses": [
+        "Nous vendons des casiers pour charger la batterie des téléphones portables ou d'autres appareils.",
+        "Casier sécurisé pour le chargement de batterie de téléphone portable."
+      ]
+    },
+    {
+      "tag": "coins",
+      "patterns": [
+        "Quelle est la valeur de la pièce ?",
+        "Quelle valeur de pièce est utilisée ?",
+        "S'adapte-t-il aux pièces de différents pays ?"
+      ],
+      "responses": [
+        "Si vous êtes dans la zone euro, la valeur sera de 1 euro ; sinon, la meilleure solution sera d'utiliser un jeton. Ajustez le jeton pour qu'il indique la valeur que vous souhaitez."
+      ]
+    },
+    {
+      "tag": "token",
+      "patterns": [
+        "Qu'est-ce que le jeton ?",
+        "Comment fonctionne le jeton ?"
+      ],
+      "responses": [
+        "Le jeton est comme une pièce faite de plastique spécial, qui peut être utilisée comme telle. Dans les pays qui n'utilisent pas l'euro, ce sera une bonne solution. Vous pouvez attribuer n'importe quelle valeur au jeton, et ce sera également utile si vous ne voulez pas utiliser d'espèces."
+      ]
+    },
+    {
+      "tag": "consumption",
+      "patterns": [
+        "Quelle est la consommation d'électricité ?",
+        "Consommation d'énergie"
+      ],
+      "responses": [
+        "Sans aucun appareil connecté, la consommation est de 0. Ensuite, la consommation dépend de la quantité d'appareils connectés."
+      ]
+    },
+    {
+      "tag": "fabrication",
+      "patterns": [
+        "Combien de temps prend la fabrication de la machine ?",
+        "Combien de temps prend la production ?"
+      ],
+      "responses": [
+        "Cela dépend de la spécification de la commande et de la disponibilité en stock."
+      ]
+    },
+    {
+      "tag": "delivery_general",
+      "patterns": [
+        "Vers quels pays pouvez-vous livrer ?",
+        "Quels sont les pays de livraison ?"
+      ],
+      "responses": [
+        "Vers n'importe quel pays, à condition que la situation politique et de sécurité le permette."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "Combien de temps prend la livraison ?",
+        "Délais de livraison"
+      ],
+      "responses": [
+        "Cela dépend du pays, de la situation politique et du dédouanement."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Quelle est la méthode de paiement ?",
+        "Puis-je payer avec PayPal ?",
+        "Puis-je faire un virement bancaire ?"
+      ],
+      "responses": [
+        "Le paiement peut être effectué par virement bancaire ou PayPal. Une fois la commande du casier confirmée, vous recevrez la facture avec les détails de paiement. Le casier sera expédié après que la banque aura confirmé le paiement."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Combien de temps dure la livraison ?",
+        "Combien de temps prend la livraison ?",
+        "Quand puis-je recevoir ma commande ?"
+      ],
+      "responses": [
+        "La livraison dure entre 2 et 4 jours.",
+        "Elle arrivera en 2-4 jours."
+      ]
+    },
+    {
+      "tag": "charging",
+      "patterns": [
+        "Prend-il en charge la charge rapide ?",
+        "Combien de temps dure la charge ?"
+      ],
+      "responses": [
+        "Nous utilisons des câbles pour la charge rapide, garantissant la meilleure expérience à vos clients."
+      ]
+    },
+    {
+      "tag": "contactless",
+      "patterns": [
+        "La charge sans contact est-elle possible ?",
+        "Y a-t-il un chargeur sans fil ?"
+      ],
+      "responses": [
+        "Oui, il est possible d'intégrer un chargeur sans fil dans le casier, mais cela influence la consommation électrique et le prix de la machine. Pour plus de détails, contactez-nous via WhatsApp ou par e-mail."
+      ]
+    },
+    {
+      "tag": "capacity",
+      "patterns": [
+        "Est-il possible de charger deux appareils dans un compartiment ?",
+        "Peut-on charger plusieurs appareils dans un compartiment ?",
+        "Combien d'appareils puis-je charger en même temps ?"
+      ],
+      "responses": [
+        "Chaque compartiment est équipé de câbles de différents types. Oui, il est possible d'utiliser un compartiment pour charger deux appareils qui utilisent des câbles différents, mais cela influencera la vitesse de charge."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "Quelle est la garantie ?",
+        "Y a-t-il une garantie ?",
+        "Avez-vous une garantie ?",
+        "Quelle est la période de garantie ?"
+      ],
+      "responses": [
+        "La garantie du casier est d'un an. Des câbles de rechange sont également inclus pour chaque casier, ainsi qu'une vidéo d'instructions sur la façon de les changer."
+      ]
+    }
+  ]
+}
